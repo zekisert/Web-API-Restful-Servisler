@@ -47,6 +47,7 @@ namespace WebApiDemo.Controllers
         {
             try
             {
+            
                 _productDal.Add(product);
                 return new StatusCodeResult(201);
             }
